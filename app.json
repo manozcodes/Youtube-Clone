@@ -1,28 +1,27 @@
 {
   "expo": {
-    "name": "youtube",
-    "slug": "youtube",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "name": "Manoz Youtube",
+    "slug": "manozyoutube",
+    "platforms": ["ios", "android", "web"],
+    "android": {
+      "package": "com.sourcecode.manozyoutube",
+      "versionCode": 1
+    },
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/manoz.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.yourcompany.yourappname",
+      "buildNumber": "1.0.0"
     }
   }
 }
